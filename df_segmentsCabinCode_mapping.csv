@@ -1,0 +1,72 @@
+Original_Category,Encoded_Value
+business,0
+business||business,1
+business||business||business,2
+business||business||coach,3
+business||coach,4
+business||coach||business,5
+business||coach||coach,6
+business||coach||coach||coach,7
+business||first,8
+business||first||first,9
+coach,10
+coach||business,11
+coach||business||business,12
+coach||business||coach,13
+coach||business||first,14
+coach||coach,15
+coach||coach||business,16
+coach||coach||business||coach,17
+coach||coach||coach,18
+coach||coach||coach||business,19
+coach||coach||coach||coach,20
+coach||coach||coach||coach||coach,21
+coach||coach||coach||first,22
+coach||coach||coach||premium coach,23
+coach||coach||first,24
+coach||coach||first||coach,25
+coach||coach||first||first,26
+coach||coach||premium coach,27
+coach||coach||premium coach||coach,28
+coach||coach||premium coach||premium coach,29
+coach||coach||premium coach||premium coach||premium coach,30
+coach||first,31
+coach||first||business,32
+coach||first||coach,33
+coach||first||first,34
+coach||first||premium coach,35
+coach||premium coach,36
+coach||premium coach||coach,37
+coach||premium coach||coach||coach,38
+coach||premium coach||first,39
+coach||premium coach||premium coach,40
+coach||premium coach||premium coach||premium coach,41
+first,42
+first||business,43
+first||business||coach,44
+first||business||first,45
+first||coach,46
+first||coach||business,47
+first||coach||coach,48
+first||coach||coach||coach,49
+first||coach||first,50
+first||first,51
+first||first||coach,52
+first||first||coach||coach,53
+first||first||first,54
+first||first||premium coach,55
+first||premium coach,56
+first||premium coach||coach,57
+first||premium coach||premium coach,58
+premium coach,59
+premium coach||business||coach,60
+premium coach||coach,61
+premium coach||coach||coach,62
+premium coach||coach||coach||coach,63
+premium coach||coach||coach||first,64
+premium coach||first,65
+premium coach||first||coach,66
+premium coach||first||first,67
+premium coach||premium coach,68
+premium coach||premium coach||coach,69
+premium coach||premium coach||premium coach,70
