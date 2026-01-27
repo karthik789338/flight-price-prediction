@@ -1,0 +1,44 @@
+nohup: ignoring input
+
+[STEP 1] Loading data...
+Data shape: (255780, 23)
+
+[STEP 2] Cleaning data...
+
+[STEP 3] Feature engineering...
+
+[STEP 4] Building preprocessing pipeline...
+
+[STEP 5] Starting training pipeline...
+
+[STEP 5] Splitting data into train and test sets...
+[STEP 6] Training models...
+
+--------------------------------------------------
+Training model: LightGBM
+Fitting model...
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.005396 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 2126
+[LightGBM] [Info] Number of data points in the train set: 202577, number of used features: 309
+[LightGBM] [Info] Start training from score 216.773548
+Evaluating model...
+/home/ubuntu/flight-fare-prediction/flight-fare-prediction/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+LightGBM | RMSE: 40.50 | MAE: 30.30 | R2: 0.684
+Model saved to models/LightGBM.joblib
+--------------------------------------------------
+Training model: XGBoost
+Fitting model...
+Evaluating model...
+XGBoost | RMSE: 40.92 | MAE: 30.72 | R2: 0.677
+Model saved to models/XGBoost.joblib
+--------------------------------------------------
+
+[STEP 7] Model training completed.
+
+
+[FINAL RESULTS]
+        RMSE        MAE        R2     Model
+0  40.495101  30.298610  0.683806  LightGBM
+1  40.922491  30.717194  0.677096   XGBoost
